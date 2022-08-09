@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1 class="heading">Form Validator Using JavaScript</h1>
+    
+    <h2 class="heading">Sign Up</h2>
+
+    <div class="container">
+        <form onsubmit="return validation()">
+            <table align="center">
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" name="name" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Mobile Number</label></td>
+                    <td><input type="number" id="mobile" name="mobile" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password" name="password" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td><label for="confirm_password">Confirm Password</label></td>
+                    <td><input type="text" id="confirm_password" name="confirm_password" autocomplete="off"></td>
+                </tr>
+                <tr align="center">
+                    <td><input type="submit" class="btn"></td>
+                    <td><input type="reset" class="btn"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
