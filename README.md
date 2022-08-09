@@ -1,2 +1,2 @@
 # Form-Validation
-This is client-side form validation. It helps ensure data submitted matches the requirements set forth in the various form controls.
+The form validation helps to check if the information meets specific requirements.
